@@ -1,0 +1,480 @@
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+body{background-color: rgb(10, 46, 75);}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: #2383a0;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    width: 100%;
+    padding-right: 40px;
+}
+
+ header #name {
+  
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.container a {
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+main >h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color:aliceblue;
+      font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container1{
+   display: flex;
+    justify-content:r;
+    align-items: center;
+    gap: 25px;
+    margin-top: 5%;
+    
+    
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 img {
+    width: 325px;
+    height: 350px;
+    border-radius: 250px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10em;
+    margin-right: 115px;
+}
+ .texto {
+    color: aliceblue; /* ou use uma cor mais visível, ex: #00aaff */
+    font-size: 18px;
+  font-family: Garamond, serif;
+    text-align: left;
+    max-width: 500px;
+    white-space: normal;
+    margin: 0;
+    line-height: 1.4;
+    
+    font-size: larger;
+}
+
+hr{
+  margin-top: 15rem;
+  color: #2383a0 ;
+  height: 1px;
+
+}
+h1{
+    margin-top: 3%;
+
+
+}
+#main-container{ 
+              display:flex;
+              justify-content:space-between;
+                align-items: center;
+            margin-top: 3%;
+    
+}
+
+/* cartão */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100px;
+    height: 120px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito hover */
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.14);
+}
+
+/* imagem */
+.card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* nome */
+.card p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #203040;
+    margin: 0;
+}
+
+.titulo{
+ display: flex;
+ justify-content: center;
+ color: aliceblue;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* BIOGRAFIA*/
+
+.bio {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        width: 100%;
+        color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        text-align: center;
+        
+}
+.bio p { margin-top: 5%;}
+main {
+    padding: 60px 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SERVICE (*/
+
+.service {
+    max-width: 1300px;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    color: aliceblue;
+}
+
+/*    TITULOS */
+
+.title,
+.title2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* CARD*/
+
+.apresent {
+    border: 2px solid #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apresent:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45);
+}
+
+/* TITULO DO CARD */
+
+.apresent h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* LISTA*/
+
+.apresent ul {
+    padding-left: 18px;
+}
+
+.apresent ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 80px auto;
+    max-width: 1300px;
+}
+/* cantact*/
+.contact {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.contact .title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fffffd;
+}
+
+.contact-links {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+   
+    transition: transform 0.3s ease, box-shadow 0.3s   ease;
+}
+
+.contact-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+
+.contact-item:hover {
+    transform: translateY(-6px) scale(1.05);
+   
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.contact-item {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.contact-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 20px 10px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    font-size: 14px;
+}
+/* =========================
+   RESPONSIVO - 1024px
+========================= */
+@media (max-width: 1024px) {
+
+    header {
+        height: 100px;
+    }
+
+    .container {
+        padding-right: 20px;
+        gap: 20px;
+    }
+
+    .container1 img {
+        margin-right: 40px;
+        margin-top: 8em;
+    }
+
+    #main-container {
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+/* =========================
+   RESPONSIVO - 768px
+========================= */
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header #name {
+        margin: 0 0 15px 0;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .container {
+        justify-content: center;
+        padding-right: 0;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .container a {
+        font-size: 9px;
+    }
+
+    main > h1 {
+        margin-top: 160px;
+        text-align: center;
+    }
+
+    .container1 {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 150px;
+    }
+
+    .container1 img {
+        margin: 0;
+        width: 260px;
+        height: 260px;
+    }
+
+    .texto {
+        text-align: center;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+
+    hr {
+        margin-top: 8rem;
+    }
+
+    #main-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+    }
+
+    .card {
+        width: 140px;
+        height: auto;
+    }
+
+    .contact {
+        margin-top: 130px;
+    }
+
+    .contact .title {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .contact-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .bio {
+        margin-top: 85px;
+    }
+}
+
+/* =========================
+   RESPONSIVO - 900px (SERVICE)
+========================= */
+@media (max-width: 900px) {
+
+    .service {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .title,
+    .title2 {
+        font-size: 24px;
+    }
+}
+
+/* =========================
+   RESPONSIVO - 500px (SERVICE)
+========================= */
+@media (max-width: 500px) {
+
+    .service {
+        grid-template-columns: 1fr;
+    }
+
+    .title,
+    .title2 {
+        font-size: 22px;
+    }
+
+    .apresent {
+        padding: 18px;
+    }
+
+
+    .footer{display: flex;
+    justify-content: center;
+align-items: center;}
+}
+
