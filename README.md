@@ -8,7 +8,6 @@ habilidades e serviços como Desenvolvedor Full Stack.
 - HTML
 - CSS
 - JavaScript
-- Node.js
 - Git e GitHub
 
 ## 🎯 Objetivo
