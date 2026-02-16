@@ -1,7 +1,7 @@
 #  Rafael Borges
 
 Portfólio profissional desenvolvido para apresentar meus projetos,
-habilidades e serviços como Desenvolvedor Full Stack.
+habilidades e serviços como Desenvolvedor Full Stacke Junior| Desenvolvedor Front End Junior.
 
 ## 🔧 Tecnologias Utilizadas
 
