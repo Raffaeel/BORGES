@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://raffaeel.github.io/BORGES/</loc>
-    <lastmod>2026-02-16</lastmod>
-    <priority>1.0</priority>
+    <loc>https://raffael.github.io/BORGES/</loc>
   </url>
+
+  <url>
+    <loc>https://raffael.github.io/BORGES/bio.html</loc>
+  </url>
+
+  <url>
+    <loc>https://raffael.github.io/BORGES/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://raffael.github.io/BORGES/projects.html</loc>
+  </url>
+
+  <url>
+    <loc>https://raffael.github.io/BORGES/service.html</loc>
+  </url>
+
 </urlset>
